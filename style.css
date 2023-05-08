@@ -15,7 +15,10 @@ padding: 24px 0;
 align-items: center;
 
 }
+body{
+    font-family: 'Poppins', sans-serif;
 
+}
 
 .cabeçalho-imagem {
 width:10% ;
@@ -33,6 +36,42 @@ width:10% ;
 background-image: linear-gradient(#fff,#000000);
 color: #000000;
 display: flex;
+justify-content:center;
+align-items: center;
+padding: 20px 0;
+}
+.escola-div-conteudo{
+    width: 35%;
 }
 
+.barbearia-titulo{
+    padding: 24px 0;
+}
+.corte-imagem{
+    width: 200px;
+}
+.corte-icone{
+    width: 24px;
+}
+.corte-div{
+    text-align: center;
+}
+.cortes-e-barbas{
+    text-align: center;
+    padding: 50px 0 ;
+}
+.cortes-barbas-todos{
+    
 
+
+    grid-template-columns: 20% 20% 20% 20% 20% ;
+}
+.rodape{
+    background-color: #000000;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 100px;
+    
+}
